@@ -1,0 +1,4 @@
+neta:
+  application:
+    name: app-github
+    version: 1.0.0
