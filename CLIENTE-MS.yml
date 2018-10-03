@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cotizador
+    username: postgres
+    password: yizuz26l
+    driver-class-name: org.postgresql.Driver
+
+---
+
+spring:
+  profiles: PRODUCCION
+  datasource:
+    url: jdbc:postgresql://192.168.100.112:5432/cotizador
+    username: postgres
+    password: yizuz26l
+    driver-class-name: org.postgresql.Driver
+
+---
+
+spring:
+  profiles: DESARROLLO
+  datasource:
+    url: jdbc:postgresql://192.168.100.113:5432/cotizador
+    username: postgres
+    password: yizuz26l
+    driver-class-name: org.postgresql.Driver
