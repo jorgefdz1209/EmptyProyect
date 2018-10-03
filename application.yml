@@ -1,4 +1,8 @@
 neta:
   application:
-    name: app-github
-    version: 1.0.0
+    name: Aplicacion de prueba
+    version: 1.0
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
